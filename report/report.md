@@ -867,4 +867,4 @@ As-is y to-be mapping Miro:
 https://miro.com/app/board/uXjVKUmcOCw=/?share_link_id=98435150377
 
 Enlace al repositorio en Github:
-https://github.com/Tecny/mobile-app-final-project.git
+https://github.com/Tecny/mobile-app-final-project/blob/report/report/report.md
