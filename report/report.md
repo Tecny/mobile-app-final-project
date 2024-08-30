@@ -176,7 +176,7 @@ Tecny es una innovadora startup creada por estudiantes de la UPC de la carrera d
 **Francis Mamani**
 | Foto                                     | Descripción              |
 |--------------------------------------------|--------------------------|
-| <img src="https://raw.githubusercontent.com/HenryCenturion/open-source-final-project/develop/informe/images/francis1.jpg" alt="UPC"> | 	Mi nombre es Francis Daniel Mamani Silva, un estudiante de 19 años de origen peruano con una pasión desenfrenada por los videojuegos. Actualmente estoy inmerso en mi carrera de Ingeniería de Software, donde combino mi amor por la tecnología con mi fascinación por los juegos. Destacándome en mis estudios universitarios, aspiro a fusionar estos dos mundos para contribuir al desarrollo de experiencias interactivas innovadoras. Mi energía optimista, junto con mi creatividad y determinación, me posicionan como un futuro líder en la industria del desarrollo de software.|
+| <img src="https://raw.githubusercontent.com/HenryCenturion/open-source-final-project/develop/informe/images/francis1.jpg" alt="UPC"> | 	Mi nombre es Francis Daniel Mamani Silva, un estudiante de 20 años de origen peruano con una pasión desenfrenada por los videojuegos. Actualmente estoy inmerso en mi carrera de Ingeniería de Software, donde combino mi amor por la tecnología con mi fascinación por los juegos. Destacándome en mis estudios universitarios, aspiro a fusionar estos dos mundos para contribuir al desarrollo de experiencias interactivas innovadoras. Mi energía optimista, junto con mi creatividad y determinación, me posicionan como un futuro líder en la industria del desarrollo de software.|
 
 <br>
 
