@@ -726,9 +726,9 @@ Ambos segmentos muestran un fuerte interés en soluciones digitales que puedan a
 |------|-------------|--------|-|
 | EP01 | Gestión de cuentas de usuario | Como jugador o propietario quiero gestionar la creación y uso de mi cuenta para acceder a mi información | US01, US02, US03, US04 |
 | EP02 | Gestión de método de pago |Como jugador o propietario quiero gestionar mi método de pago en la aplicación para usarla según mi necesidad  | US05, US06, US07 |
-| EP03 | Gestión de Comunicación en las Salas| Como jugador quiero gestionar la creación y uso de las salas de juego para hacer uso de ellas  | US08, US09, US10, US11, US12, US13, US14, US15, US16, US17, US18 |
+| EP03 | Gestión de salas de juego| Como jugador quiero gestionar la creación y uso de las salas de juego para hacer uso de ellas  | US08, US09, US10, US11, US12, US13, US14, US15, US16, US17, US18 |
 | EP04 | Gestión de suscripciones| Como propietario quiero gestionar mi suscripción para adecuarla sus beneficios según mis necesidades  | US19, US20, US21, US22 |
-| EP05 | Gestión de salas de espacios deportivos | Como propietario quiero gestionar mis espacios deportivos para la visualización a los jugadores | US23, US24, US25, US26 |
+| EP05 | Gestión de espacios deportivos | Como propietario quiero gestionar mis espacios deportivos para la visualización a los jugadores | US23, US24, US25, US26 |
 | EP06 | Elementos de landing page | Como visitante quiero visualizar el contenido resaltante de una landing page para conocer sobre la aplicación web | US30, US31 |
 | EP07 | Implementación de las funcionalidades backend | Como desarrollador quiero implementar las funcionalidades esenciales para que la aplicación web funcione | TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13|
 
