@@ -133,8 +133,14 @@ body {
 
 /* About */
 
-.about {
-    
+.background-container {
+    background-color: #e5e5f7;
+    width: 100%;
+    padding: 50px 0; 
+}
+
+.container.about {
+    /* Puedes mantener o ajustar los estilos existentes aquí */
     text-align: center;
 }
 
@@ -303,7 +309,6 @@ body {
 /* Testimony */
 
 .testimony{
-    background-color: #e5e5f7;
 }
 
 .testimony__container{
@@ -358,7 +363,14 @@ body {
 
 /* Questions */
 
-.questions{
+.questions-container {
+    background-color: #e5e5f7; /* Color de fondo igual al de .testimony */
+    width: 100%; /* Asegura que el fondo abarque el ancho completo */
+    padding: 50px 0; /* Opcional: Ajusta el espaciado vertical según tus necesidades */
+}
+
+.questions.about {
+    /* Puedes mantener o ajustar los estilos existentes aquí */
     text-align: center;
 }
 
@@ -708,4 +720,23 @@ body {
         width: 100%;
         */
     }
+}
+
+.questions__offer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e5e5f7;
+}
+
+.questions__offer .subtitle {
+    font-size: 2rem;
+    color: var(--color-title);
+    margin-bottom: 20px;
+}
+
+.questions__offer .questions__paragraph {
+    font-size: 1rem;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
 }
