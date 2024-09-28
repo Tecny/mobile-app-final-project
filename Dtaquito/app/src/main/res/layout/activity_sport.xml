@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#065B28"
+    tools:context=".SportActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/qu_deporte_deseas_jugar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/soccer_img"
+        android:layout_width="224dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/soccer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:background="@mipmap/futbol"
+        android:onClick="soccer"/>
+
+    <ImageButton
+        android:id="@+id/pool_img"
+        android:layout_width="224dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="40dp"
+        android:contentDescription="@string/pool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/soccer_img"
+        app:layout_constraintTop_toTopOf="@+id/soccer_img"
+        android:background="@mipmap/billar"
+        android:onClick="pool"/>
+
+
+    <ImageView
+        android:id="@+id/gradient"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pool_img"
+        app:layout_constraintEnd_toEndOf="@+id/soccer_img"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pool_img"
+        app:layout_constraintTop_toTopOf="@+id/pool_img"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/gradient" />
+
+    <ImageButton
+        android:id="@+id/pool_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/billar_icon"
+        android:contentDescription="@string/pool"
+        android:onClick="pool"
+        app:layout_constraintBottom_toBottomOf="@+id/soccer_img"
+        app:layout_constraintEnd_toEndOf="@+id/soccer_img"
+        app:srcCompat="@mipmap/billar_icon" />
+
+    <ImageButton
+        android:id="@+id/soccer_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/futbol_icon"
+        android:contentDescription="@string/soccer"
+        android:onClick="soccer"
+        app:layout_constraintStart_toStartOf="@+id/pool_img"
+        app:layout_constraintTop_toTopOf="@+id/pool_img"
+        app:srcCompat="@mipmap/futbol_icon" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:background="@mipmap/profile_icon"
+        android:contentDescription="@string/perfil"
+        android:onClick="profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
